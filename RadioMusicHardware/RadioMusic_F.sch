@@ -11226,7 +11226,7 @@ Standard decoupling cap</description>
 <part name="D1" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="_"/>
 <part name="D2" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="_"/>
 <part name="C9" library="SparkFun-Passives" deviceset="CAP_POL" device="C" value="100u"/>
-<part name="IC2" library="burr-brown" deviceset="REG1117" device="" value="5v regulator"/>
+<part name="REG1117" library="burr-brown" deviceset="REG1117" device="" value="5v regulator"/>
 <part name="D3" library="SparkFun-DiscreteSemi" deviceset="BAV99" device=""/>
 </parts>
 <sheets>
@@ -11315,7 +11315,7 @@ SD-SS
 <instance part="D1" gate="G$1" x="266.7" y="15.24" rot="R180"/>
 <instance part="D2" gate="G$1" x="266.7" y="5.08"/>
 <instance part="C9" gate="G$1" x="132.08" y="121.92"/>
-<instance part="IC2" gate="G$1" x="365.76" y="30.48"/>
+<instance part="REG1117" gate="G$1" x="365.76" y="30.48"/>
 <instance part="D3" gate="G$1" x="345.44" y="91.44" rot="R90"/>
 </instances>
 <busses>
@@ -11663,7 +11663,7 @@ SD-SS
 <wire x1="365.76" y1="15.24" x2="350.52" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="365.76" y1="17.78" x2="365.76" y2="15.24" width="0.1524" layer="91"/>
 <junction x="365.76" y="15.24"/>
-<pinref part="IC2" gate="G$1" pin="GND"/>
+<pinref part="REG1117" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <wire x1="345.44" y1="81.28" x2="345.44" y2="76.2" width="0.1524" layer="91"/>
@@ -11723,7 +11723,7 @@ SD-SS
 <wire x1="330.2" y1="22.86" x2="330.2" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="330.2" y1="30.48" x2="337.82" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="U3" gate="P" pin="V+"/>
-<pinref part="IC2" gate="G$1" pin="VIN"/>
+<pinref part="REG1117" gate="G$1" pin="VIN"/>
 </segment>
 <segment>
 <pinref part="D1" gate="G$1" pin="C"/>
@@ -11754,7 +11754,7 @@ SD-SS
 <segment>
 <wire x1="381" y1="25.4" x2="378.46" y2="30.48" width="0.1524" layer="91"/>
 <label x="381" y="25.4" size="1.778" layer="95" xref="yes"/>
-<pinref part="IC2" gate="G$1" pin="VOUT"/>
+<pinref part="REG1117" gate="G$1" pin="VOUT"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="VIN"/>
